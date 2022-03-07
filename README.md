@@ -53,7 +53,7 @@ Para el cálculo se utilizaron lotes de 6400 imágenes.
 - ASL:  El mejor FID obtenido en este caso fue de ~21,5 <br />
 <img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_BigGAN_asl.png" width="600"> <br />
 
-##Data Augmentation
+## Data Augmentation
 
 Para la tarea de data augmentation se usaron distintas proporciones de aumento. La siguiente es una tabla resumen con los accuracys finales alcanzados por un clasificador en ambos datasets.
 
@@ -78,7 +78,8 @@ Para la tarea de data augmentation se usaron distintas proporciones de aumento. 
 
 En el siguiente documento se encuentra en más detalle el contenido de este proyecto: https://drive.google.com/file/d/1hS1yjneqg7BKQsgQqbdgBM73EY_d6J6g/view?usp=sharing. 
 
-- Para mas informacion acerca de los modelos. Consultar Capítulo 3.
-- Para mas informacion aceca de los dataset y/o dominio. Conultar Capítulo 4
-- Para mas informacion acerca de los experimentos. Consultar Capítulo 5
-- Oponiones personales. Capítulo 6
+- Para más información acerca de los modelos. Consultar Capítulo 3.
+- Para más información acerca de los dataset y/o dominio. Consultar Capítulo 4
+- Para más información acerca de los experimentos. Consultar Capítulo 5
+- Opiniones personales. Capítulo 6
+
