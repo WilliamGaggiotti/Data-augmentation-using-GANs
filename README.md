@@ -9,7 +9,7 @@ Con el fin de Estudiar las Redes Generativas Adversarias, se utilizaron las mism
 <img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/datasets_example/LSA_16.png" width="500"> <br />
 - LSA64 with rotations <br />
 - PugeaultASL <br />
-- <img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/datasets_example/ASL.png" width="500"> <br />
+<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/datasets_example/ASL.png" width="500"> <br />
 
 Para mas informacion sobre los dataset  https://github.com/midusi/handshape_datasets
 
