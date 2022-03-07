@@ -6,10 +6,10 @@ Con el fin de Estudiar las Redes Generativas Adversarias, se utilizaron las mism
 
 ## Datasets
 - LSA16 <br />
-<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/datasets_example/LSA_16.png" width="500">
-- LSA64 with rotations
+<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/datasets_example/LSA_16.png" width="500"> <br />
+- LSA64 with rotations <br />
 - PugeaultASL <br />
-- <img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/datasets_example/ASL.png" width="500">
+- <img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/datasets_example/ASL.png" width="500"> <br />
 
 Para mas informacion sobre los dataset  https://github.com/midusi/handshape_datasets
 
@@ -27,9 +27,9 @@ Es el primer modelo GAN que se planteó en 2014 por Ian Goodfellow.
 En este caso no se calculo el FID de las muestras generadas ebido a que la fidelidad y diversidad de las imágenes generadas eran evidentemente muy pobres a simple vista. El colapso de moda se puede apreciar fácilmente.
 
 - LSA16 <br />
-<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_BasicGAN_lsa16.png" width="300">
-- LSA64 with rotations <br />
-<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_BasicGAN_lsa16_r.png" width="300">
+<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_BasicGAN_lsa16.png" width="300"> <br />
+- LSA64 <br />
+<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_BasicGAN_lsa16_r.png" width="300"> <br />
 
 ### WCGAN
 
@@ -38,9 +38,9 @@ Esta GAN es una combinación de Wasserstein GAN, cumpliendo la restricción 1-Li
 #### Resultados: 
 Para el cálculo se utilizaron lotes de 6400 imágenes.
 - LSA64: El mejor FID obtenido en este caso fue de ~78 <br />
-<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_wgan_lsa16.png" width="800">
+<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_wgan_lsa16.png" width="600"> <br />
 - ASL:  El mejor FID obtenido en este caso fue de ~84 <br />
-<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_wgan_asl.png" width="800">
+<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_wgan_asl.png" width="600"> <br />
 
 ### BigGAN
 Este es uno de los modelos más robustos de GANs que existen en la actualidad. Combina lo mejor de varios modelos. Concretamente, utiliza la distancia Wasserstein y la normalización espectral de WGAN, el módulo de atención de SAGAN para modelar dependencias de largo alcance, y el acondicionamiento de CGAN para controlar la generación de las imágenes. Para G se utilizó normalización por lotes condicional, mientras que para D se utilizó la técnica de proyección.
@@ -49,6 +49,6 @@ Como es un modelo tan robusto se tuvieron que hacer recortes en su arquitectura 
 #### Resultados: 
 Para el cálculo se utilizaron lotes de 6400 imágenes.
 - LSA64: El mejor FID obtenido en este caso fue de ~19.5 <br />
-<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_BigGAN_lsa16.png" width="800">
+<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_BigGAN_lsa16.png" width="600"> <br />
 - ASL:  El mejor FID obtenido en este caso fue de ~21,5 <br />
-<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_BigGAN_asl.png" width="800">
+<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_BigGAN_asl.png" width="600"> <br />
