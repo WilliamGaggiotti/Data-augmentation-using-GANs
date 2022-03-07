@@ -5,13 +5,11 @@
 Con el fin de Estudiar las Redes Generativas Adversarias, se utilizaron las mismas con el fin de generar imágenes sintéticas de la lengua de señas Argentina (LSA) y Estadounidense (ASL), para posteriormente utilizar las mismas como técnica de data augmentation.
 
 ## Datasets
-- LSA16
-![alt text](https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/datasets_example/LSA_16.png)
-
+- LSA16<br />
+<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/datasets_example/LSA_16.png" width="250">
 - LSA64 with rotations
-
-- PugeaultASL
-![alt text](https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/datasets_example/ASL.png)
+- PugeaultASL<br />
+- <img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/datasets_example/ASL.png" width="250">
 
 Para mas informacion sobre los dataset  https://github.com/midusi/handshape_datasets
 
