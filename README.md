@@ -57,8 +57,8 @@ Para el cálculo se utilizaron lotes de 6400 imágenes.
 
 |Dataset                          |LSA16                         |
 |-------------------------------|-----------------------------|
-|`Proporciones`            |<table> <td>`Base`</td> <td>`WCGAN`</td> <td>`BigGAN`</td>  </table> |
-|% 25            |<table>  <thead>  <tr>  <th></th>  <th>ASCII</th>  <th>HTML</th>  </tr>  </thead>  <tbody>  <tr>  <td>Single backticks</td>  <td><code>'Isn't this fun?'</code></td>  <td>‘Isn’t this fun?’</td>  </tr>  <tr>  <td>Quotes</td>  <td><code>"Isn't this fun?"</code></td>  <td>“Isn’t this fun?”</td>  </tr>  <tr>  <td>Dashes</td>  <td><code>-- is en-dash, --- is em-dash</code></td>  <td>– is en-dash, — is em-dash</td>  </tr>  </tbody>  </table>      |
-|% 50|-- is en-dash, --- is em-dash|
-|% 100|-- is en-dash, --- is em-dash|
-|% 200|-- is en-dash, --- is em-dash|
+|`Proporciones`                 | <table> <td>`Base`</td> <td>`WCGAN`</td> <td>`BigGAN`</td>  </table> |
+|% 25                           | <table> <td>∼86.48</td> <td>∼86.09 </td> <td>~87.12</td>  </table> |
+|% 50                           | <table> <td>∼86.48</td> <td>∼87.18</td> <td>~86.5</td>  </table> | 
+|% 100                          | <table> <td>∼86.48</td> <td>∼85.39 </td> <td>~88.1</td>  </table>|
+|% 200                          | <table> <td>∼86.48</td> <td>∼84.85 </td> <td>~86.71</td>  </table>|
