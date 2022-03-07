@@ -27,9 +27,9 @@ Es el primer modelo GAN que se planteó en 2014 por Ian Goodfellow.
 En este caso no se calculo el FID de las muestras generadas ebido a que la fidelidad y diversidad de las imágenes generadas eran evidentemente muy pobres a simple vista. El colapso de moda se puede apreciar fácilmente.
 
 - LSA16 <br />
-<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_BasicGAN_lsa16.png" width="500">
+<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_BasicGAN_lsa16.png" width="300">
 - LSA64 with rotations <br />
-<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_BasicGAN_lsa16.png" width="500">
+<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_BasicGAN_lsa16_r.png" width="300">
 
 ### WCGAN
 
