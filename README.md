@@ -53,12 +53,32 @@ Para el cálculo se utilizaron lotes de 6400 imágenes.
 - ASL:  El mejor FID obtenido en este caso fue de ~21,5 <br />
 <img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/results/cap5_BigGAN_asl.png" width="600"> <br />
 
+##Data Augmentation
+
+Para la tarea de data augmentation se usaron distintas proporciones de aumento. La siguiente es una tabla resumen con los accuracys finales alcanzados por un clasificador en ambos datasets.
 
 
-|Dataset                          |LSA16                         |
+|Dataset                        |LSA16                         |
 |-------------------------------|-----------------------------|
 |`Proporciones`                 | <table> <td>`Base`</td> <td>`WCGAN`</td> <td>`BigGAN`</td>  </table> |
 |% 25                           | <table> <td>∼86.48</td> <td>∼86.09 </td> <td>~87.12</td>  </table> |
 |% 50                           | <table> <td>∼86.48</td> <td>∼87.18</td> <td>~86.5</td>  </table> | 
 |% 100                          | <table> <td>∼86.48</td> <td>∼85.39 </td> <td>~88.1</td>  </table>|
 |% 200                          | <table> <td>∼86.48</td> <td>∼84.85 </td> <td>~86.71</td>  </table>|
+
+|Dataset                        |ASL                         |
+|-------------------------------|-----------------------------|
+|`Proporciones`                 | <table> <td>`Base`</td> <td>`WCGAN`</td> <td>`BigGAN`</td>  </table> |
+|% 25                           | <table> <td>∼57.46</td> <td>∼58.90 </td> <td>~59.50</td>  </table> |
+|% 50                           | <table> <td>∼57.46</td> <td>∼56.94</td> <td>~60.10</td>  </table> | 
+|% 100                          | <table> <td>∼57.46</td> <td>∼58.10 </td> <td>~61.36</td>  </table>|
+|% 200                          | <table> <td>∼57.46</td> <td>∼58.46 </td> <td>~61.27</td>  </table>|
+
+## Información adicional
+
+En el siguiente documento se encuentra en más detalle el contenido de este proyecto: https://drive.google.com/file/d/1hS1yjneqg7BKQsgQqbdgBM73EY_d6J6g/view?usp=sharing. 
+
+- Para mas informacion acerca de los modelos. Consultar Capítulo 3.
+- Para mas informacion aceca de los dataset y/o dominio. Conultar Capítulo 4
+- Para mas informacion acerca de los experimentos. Consultar Capítulo 5
+- Oponiones personales. Capítulo 6
