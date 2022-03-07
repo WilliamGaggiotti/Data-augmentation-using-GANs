@@ -6,6 +6,7 @@ Con el fin de Estudiar las Redes Generativas Adversarias, se utilizaron las mism
 
 ## Datasets
 - LSA16
+<img src="https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/datasets_example/LSA_16.png" width="48">
 ![alt text](https://github.com/WilliamGaggiotti/Data-augmentation-using-GANs/blob/main/Images/datasets_example/LSA_16.png)
 - LSA64 with rotations
 - PugeaultASL
